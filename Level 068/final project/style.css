@@ -1,0 +1,552 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Big+Shoulders+Display:wght@100..900&family=Jaldi:wght@400;700&family=Lexend+Deca:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: jaldi;
+}
+
+header{
+    background-color: #eef4ed;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    flex-direction: row;
+    
+}
+
+#main{
+    width: 50px;
+    height: 50px;
+    background-color: #0B2545;
+    border-radius: 10px;
+    margin-right: 30px;
+    color: #e8e6e3;
+    transition: 0.5s;
+}
+
+#main:hover{
+    background-color: #8DA9C4;
+    transform: rotate(360deg);
+    color: #000000;
+}
+
+#main:active{
+    background-color: #0B2545;
+    color: #8DA9C4;
+}
+
+#headeraa{
+    display: flex;
+    padding-left: 40px;
+    padding-right: 820px;
+}
+
+#andria{
+    color: #0B2545;
+}
+
+#arakhamia{
+    color: #134074;
+}
+
+button{
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    color: #eef4ed;
+}
+
+#projects{
+    background-color: #0B2545;
+    transition: 0.5s;
+}
+
+#projects:hover{
+    background-color: #8DA9C4;
+}
+
+#projects:active{
+    background-color: #0B2545;
+    color: #8DA9C4;
+}
+
+#aboutme{
+    background-color: #13315C;
+    transition: 0.5s;
+}
+
+#aboutme:hover{
+    background-color: #8DA9C4;
+}
+
+#aboutme:active{
+    background-color: #0B2545;
+    color: #8DA9C4;
+}
+
+#contact{
+    background-color: #134074;
+    transition: 0.5s;
+}
+
+#contact:hover{
+    background-color: #8DA9C4;
+}
+
+#contact:active{
+    background-color: #0B2545;
+    color: #8DA9C4;
+}
+
+
+#buttons{
+    padding-right: 100px;
+    display: flex;
+    gap: 20px;
+}
+
+button a{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+}
+
+main{
+    background-color: #e8e6e3;
+}
+
+#andriaarakhamia{
+    width: 600px;
+    height: 100px;
+    color: #0B2545;
+    padding-left: 80px;
+    padding-top: 50px;
+    font-size: xx-large;
+}
+
+pre{
+    font-weight: bold;
+    padding-top: 50px;
+    padding-left: 30px;
+    font-size: larger;
+}
+
+#text{
+    height: 200px;
+}
+
+#image{
+    padding-left: 1000px;
+    margin-top: -250px;
+    margin-bottom: 100px;
+    height: 810px;
+    width: 810px;
+    display: grid;
+    grid-template-areas:
+    'div1 div2 div3'
+    'div4 div5 div3'
+    'div6 div7 div8';
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.div1, .div2, .div3, .div4, .div5, .div6, .div7, .div8{
+    height: 270px;
+    width: 270px;
+}
+
+.div1{
+    grid-area: div1;
+    background-color: #134074;
+    border-radius: 40% 0px 0px 40%;
+    transition: 0.5s;
+}
+
+.div1:hover{
+    border: 20px solid #8DA9C4;
+}
+
+.div2{
+    grid-area: div2;
+    background-color: #13315c;
+    transform: rotate(45deg);
+    width: 190px;
+    height: 190px;
+    margin-left: 40px;
+    margin-top: 40px;
+    transition: 0.5s;
+}
+
+.div2:hover{
+    transform: rotate(405deg);
+}
+
+.div3{
+    grid-area: div3;
+    background-color: #0b2545;
+    height: 540px;
+    border-radius: 0px 200px 200px 0px;
+    transition: 0.5s;
+}
+
+.div3:hover{
+    height: 270px;
+}
+
+.div4{
+    grid-area: div4;
+    border: 30px solid #8da9c4;
+    background-color: #e8e6e3;
+    transition: 0.5s;
+}
+
+.div4:hover{
+    border: 20px solid #0B2545;
+}
+
+.div5{
+    grid-area: div5;
+    background-color: white;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.div5:hover{
+    border-radius: 0%;
+}
+
+.div6{
+    grid-area: div6;
+    background-color: #8da9c4;
+    border-radius: 100px 100px 0px 100px;
+    transition: 0.5s;
+}
+
+.div6:hover{
+    border-radius: 0px 0px 100px 0px;
+}
+
+.div7{
+    grid-area: div7;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.div7:hover{
+    background-color: #e8e6e3;
+    border: 20px solid white;
+}
+
+.div8{
+    grid-area: div8;
+    background-color: #8da9c4;
+    border-radius: 0px 80% 0px 0px;
+    transition: 0.5s;
+}
+
+.div8:hover{
+    background-color: #0B2545;
+}
+
+#me{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    border: 10px solid #0B2545;
+}
+
+#mediv{
+    margin-left: 100px;
+    margin-top: -600px;
+}
+
+footer{
+    height: 200px;
+    background-color: #134074;
+}
+
+#divtel{
+    width: 200px;
+    padding-left: 50px;
+}
+
+#tel{
+    color: #0B2545;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+#divnumber{
+    width: 500px;
+    margin-top: -40px;
+    padding-left: 170px;
+}
+
+#number{
+    color: white;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+
+
+#dive{
+    width: 200px;
+    padding-left: 50px;
+}
+
+#e{
+    color: #0B2545;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+#divmail{
+    width: 500px;
+    margin-top: -40px;
+    padding-left: 120px;
+}
+
+#mail{
+    color: white;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+
+
+#divem{
+    width: 200px;
+    padding-left: 50px;
+}
+
+#em{
+    color: #0B2545;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+#divmessage{
+    width: 500px;
+    margin-top: -40px;
+    padding-left: 160px;
+}
+
+#message{
+    color: white;
+    border-radius: 10px;
+    font-size: x-large;
+    font-weight: 900;
+    border: 2px solid #0B2545;
+    color: #000000;
+}
+
+#divsubmit{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+#submitmessage{
+    background-color: #0B2545;
+    border-radius: 20px;
+    width: 400px;
+    height: 40px;
+    transition: 0.5s;
+    border: 1px solid #000000;
+    font-weight: 900;
+    font-size: x-large;
+    color: white;
+}
+
+#submitmessage:hover{
+    background-color: #537ba8;
+    border: none;
+    border: 1px solid #0B2545;
+    color: #000000;
+}
+
+@media screen and (max-width: 1440px){
+    body{
+        width: 100%;
+    }
+    
+    #image{
+        padding-left: 600px;
+    }
+
+    #mediv{
+        margin-right: 60px;
+    }
+
+    #headeraa{
+        padding-right: 300px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    #image{
+        display: none;
+    }
+
+    #mediv{
+        padding-top: 600px;
+    }
+
+    #headeraa{
+        padding-right: 30px;
+        font-size: x-small;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    #headeraa{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 426px){
+    #mediv{
+        display: none;
+    }
+
+    #andriaarakhamia{
+        width: 600px;
+        height: 100px;
+        color: #0B2545;
+        padding-left: 80px;
+        padding-top: 50px;
+        font-size: large;
+    }
+    
+    pre{
+        font-weight: bold;
+        padding-top: 50px;
+        padding-left: 30px;
+        font-size: small;
+    }
+    
+    #text{
+        height: 200px;
+    }
+
+    #buttons{
+        display: flex;
+        flex-direction: column;
+    }
+
+    header{
+        height: 200px;
+    }
+
+    #divtel{
+        width: 200px;
+        padding-left: 50px;
+    }
+    
+    #tel{
+        color: #0B2545;
+        font-size: large;
+        font-weight: 900;
+    }
+    
+    #divnumber{
+        width: 400px;
+        margin-top: -30px;
+        padding-left: 170px;
+    }
+    
+    #number{
+        color: white;
+        font-size: large;
+        font-weight: 900;
+    }
+    
+    
+    
+    #dive{
+        width: 100px;
+        padding-left: 50px;
+    }
+    
+    #e{
+        color: #0B2545;
+        font-size: large;
+        font-weight: 900;
+    }
+    
+    #divmail{
+        width: 400px;
+        margin-top: -30px;
+        padding-left: 120px;
+    }
+    
+    #mail{
+        color: white;
+        font-size: large;
+        font-weight: 900;
+    }
+    
+    
+    #divem{
+        width: 200px;
+        padding-left: 50px;
+    }
+    
+    #em{
+        color: #0B2545;
+        font-size: large;
+        font-weight: 900;
+    }
+    
+    #divmessage{
+        width: 300px;
+        margin-top: -30px;
+        padding-left: 160px;
+    }
+    
+    #message{
+        color: white;
+        border-radius: 10px;
+        font-size: large;
+        font-weight: 900;
+        border: 2px solid #0B2545;
+        color: #000000;
+    }
+    
+    #divsubmit{
+        padding-left: 50px;
+        padding-top: 20px;
+    }
+    
+    #submitmessage{
+        background-color: #0B2545;
+        border-radius: 20px;
+        width: 300px;
+        height: 30px;
+        transition: 1s;
+        border: 1px solid #000000;
+        font-weight: 900;
+        font-size: large;
+        color: white;
+    }
+    
+    #submitmessage:hover{
+        background-color: #537ba8;
+        border: none;
+        border: 1px solid #0B2545;
+        color: #000000;
+    }
+
+    
+}
+
